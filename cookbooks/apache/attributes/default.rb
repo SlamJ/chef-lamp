@@ -2,6 +2,8 @@ default["apache"]["sites"]["samueljjennings-gmail-com2"] = { "site_title" => "Sa
 default["apache"]["sites"]["samueljjennings-gmail-com2b"] = { "site_title" => "Sam2sb website be here soon mane", "port" => 80, "domain" => "samueljjennings-gmail-com2b.mylabserver.com"}
 default["apache"]["sites"]["samueljjennings-gmail-com3.mylabserver.com"] = { "site_title" => "Site of da ubuntu", "port" => 80, "domain" => "samueljjennings-gmail-com3.mylabserver.com" }
 
+default["author"]["name"] = "sam"
+
 case node["platform"]
 when "centos"
 	default["apache"]["package"] = "httpd"

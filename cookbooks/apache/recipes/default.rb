@@ -50,7 +50,8 @@ template "/content/sites/#{sitename}/index.html" do
 	mode "0644"
 	variables(
 		:site_title => data["site_title"],
-		:comingsoong => "coming soon!"	
+		:comingsoon => "coming soon!",
+		:author_name => node["author"]["name"]	
 	)	
 end
 end
